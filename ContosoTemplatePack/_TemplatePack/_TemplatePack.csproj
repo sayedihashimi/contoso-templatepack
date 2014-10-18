@@ -113,9 +113,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <TemplateReference Include="ContosoWebFormsMvc.csproj">
-      <PathToProject>../ContosoWebFormsMvc/ContosoWebFormsMvc.csproj</PathToProject>
-    </TemplateReference>
     <TemplateReference Include="MvcBasic.csproj">
       <PathToProject>../MvcBasic/MvcBasic.csproj</PathToProject>
     </TemplateReference>
@@ -147,4 +144,9 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <PropertyGroup>
+    <StartAction>Program</StartAction>
+    <StartProgram>$(MSBuildProgramFiles32)\Microsoft Visual Studio 12.0\Common7\IDE\devenv.exe</StartProgram>
+    <StartArguments>/RootSuffix Exp</StartArguments>
+  </PropertyGroup>
 </Project>
