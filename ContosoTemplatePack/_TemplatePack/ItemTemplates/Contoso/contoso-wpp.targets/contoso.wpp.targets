@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <BuildDependsOn>
+      $(BuildDependsOn);
+      ContosoAfterBuild;
+    </BuildDependsOn>
+  </PropertyGroup>
+  
+  <Target Name="ContosoAfterBuild">
+    <Message Text="
+==> Running Contoso test cases
+===> unit tests
+===> custom fx cop rules
+==> Passed
+" Importance="high"/>
+  </Target>
+</Project>

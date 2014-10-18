@@ -1,0 +1,38 @@
+<!-- 
+    Azure related configuration will be placed in this file.
+    Currently it just supports StorageAccount and SQL db
+    -->
+<AzureConfiguration>
+  <Subscriptions>   
+    <!--
+    Here is where you define all the subscriptions that resources will belong  in.
+    You can use resources from many different subscriptions.
+
+    -->
+    
+    <!-- Here is how you can define one or more subscriptions
+    <Subscription Name="local"
+                   Id="21e74a87-523d-4a15-87e9-8c5eb2df7716" />
+    <Subscription Name="prod"
+                   Id="33552979-26bf-49ee-858c-a8d0da43cea5" />
+    <Subscription Name="test"
+                   Id="4BB7DC43-77F9-4079-8173-14D792B48E0C" />
+    -->
+    <Subscription Name="dev"
+                   Id="21e74a87-523d-4a15-87e9-8c5eb2df7716" />
+  </Subscriptions>
+    
+  <!-- 
+  Define your environment below.
+    Note: you can set the default subscription with the DefaultSubscriptionName attribute on Environment. 
+  -->
+  <Environment Name="local" DefaultSubscriptionName="dev">    
+    
+    <!--<StorageAccount Name="name1" />
+    <StorageAccount Name="name2" SubscriptionName="dev"/>
+    <StorageAccount Name="name3" SubscriptionName="dev" ConnectionString="(value here should not be modified)"/>
+    <SqlDatabase Name="sayeddb" ServerName="w9cjkvd9ay" />
+    <SqlDatabase Name="sayeddbtest" ServerName="w9cjkvd9ay" />-->
+    
+  </Environment>
+</AzureConfiguration>

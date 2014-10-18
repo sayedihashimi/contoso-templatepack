@@ -1,0 +1,13 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>_Layout.cshtml</DefaultName>
+    <Name>Contoso _Layout.cshtml</Name>
+    <Description>Contoso _Layout.cshtml</Description>
+    <ProjectType>CSharp</ProjectType>
+    <Icon>cshtmlfile.11.ico</Icon>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true" TargetFileName="Views\Shared\_Layout.cshtml">_Layout.cshtml</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

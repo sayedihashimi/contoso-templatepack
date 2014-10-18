@@ -1,0 +1,15 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>Contoso app start files</DefaultName>
+    <Name>Contoso app start files</Name>
+    <Description>Contoso app start files</Description>
+    <ProjectType>CSharp</ProjectType>
+    <Icon>csharp-file-icon.png</Icon>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true" TargetFileName="App_Start\BundleConfig.cs">BundleConfig.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="App_Start\FilterConfig.cs">FilterConfig.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="App_Start\RouteConfig.cs">RouteConfig.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

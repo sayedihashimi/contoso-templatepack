@@ -1,0 +1,15 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>web.config</DefaultName>
+    <Name>Contoso web.config</Name>
+    <Description>Contoso web.config</Description>
+    <ProjectType>CSharp</ProjectType>
+    <Icon>xml-icon.png</Icon>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true" TargetFileName="web.config">web.config</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="web.Debug.config">web.Debug.config</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="web.Release.config">web.Release.config</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

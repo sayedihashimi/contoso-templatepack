@@ -1,0 +1,22 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>Contoso script files</DefaultName>
+    <Name>Contoso script files</Name>
+    <Description>Contoso script files</Description>
+    <ProjectType>CSharp</ProjectType>
+    <Icon>script-icon.png</Icon>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true" TargetFileName="scripts\_references.js">_references.js</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="scripts\bootstrap.js">bootstrap.js</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="scripts\bootstrap.min">bootstrap.min.js</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="scripts\jquery-1.10.2.intellisense.js">jquery-1.10.2.intellisense.js</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="scripts\jquery-1.10.2.js">jquery-1.10.2.js</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="scripts\jquery-1.10.2.min.js">jquery-1.10.2.min.js</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="scripts\jquery-1.10.2.min.map">jquery-1.10.2.min.map</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="scripts\modernizr-2.6.2.js">modernizr-2.6.2.js</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="scripts\respond.js">respond.js</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="scripts\respond.min.js">respond.min.js</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

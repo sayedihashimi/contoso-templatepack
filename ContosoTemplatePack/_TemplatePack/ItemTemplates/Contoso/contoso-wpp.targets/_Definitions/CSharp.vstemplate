@@ -1,0 +1,13 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>contoso.wpp.targets</DefaultName>
+    <Name>Contoso contoso.wpp.targets</Name>
+    <Description>Contoso contoso.wpp.targets</Description>
+    <ProjectType>CSharp</ProjectType>
+    <Icon>build-icon.png</Icon>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="false" TargetFileName="contoso.wpp.targets">contoso.wpp.targets</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

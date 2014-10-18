@@ -1,0 +1,14 @@
+﻿This template has the following customizations.
+  - Windows Auth
+  - Custom appSettings in web.config
+  - Custom web.config transform for appSettings
+  - Custom bootstrap theme (readable from bootswatch.com)
+  - Extended build process via contoso.wpp.targets
+  - Customized content of AssemblyInfo.cs
+		- Version defaults at 0.1.0.0 instead of 1.0.0.0
+		- Company/Copyright info
+ - Customized templates for built in scaffolders
+ - Staging PublishProfile 
+		- \\sayedha-x2\contoso.staging\<Project-Name>\0.1.0.0
+		- Custom pre-publish setps
+ - Added AzureConfig NuGet package which enables custom commands in pkg mgr console

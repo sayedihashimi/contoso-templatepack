@@ -1,0 +1,33 @@
+﻿// ---------------------- SNIPPETS ----------------------
+
+// Visual Basic
+[$RootKey$\Languages\CodeExpansions\Basic\Paths]
+"Contoso"="$PackageFolder$\Snippets\VisualBasic\Contoso"
+
+// C++
+[$RootKey$\Languages\CodeExpansions\C/C++\Paths]
+"Contoso"="$PackageFolder$\Snippets\C++\Contoso"
+
+// C#
+[$RootKey$\Languages\CodeExpansions\CSharp\Paths]
+"Contoso"="$PackageFolder$\Snippets\CSharp\Contoso"
+
+// CSS
+[$RootKey$\Languages\CodeExpansions\CSS\Paths]
+"Contoso"="$PackageFolder$\Snippets\CSS\Contoso"
+
+// HTML
+[$RootKey$\Languages\CodeExpansions\HTML\Paths]
+"Contoso"="$PackageFolder$\Snippets\HTML\Contoso"
+
+// JavaScript
+[$RootKey$\Languages\CodeExpansions\JavaScript\Paths]
+"Contoso"="$PackageFolder$\Snippets\JavaScript\Contoso"
+
+// SQL
+[$RootKey$\Languages\CodeExpansions\SQL_SSDT\Paths]
+"Contoso"="$PackageFolder$\Snippets\SQL\Contoso"
+
+// XML
+[$RootKey$\Languages\CodeExpansions\XML\Paths]
+"Contoso"="$PackageFolder$\Snippets\XML\Contoso"

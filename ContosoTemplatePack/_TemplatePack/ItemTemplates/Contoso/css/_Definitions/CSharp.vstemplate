@@ -1,0 +1,15 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>Contoso CSS files</DefaultName>
+    <Name>Contoso CSS files</Name>
+    <Description>Contoso CSS files</Description>
+    <ProjectType>CSharp</ProjectType>
+    <Icon>css-icon.png</Icon>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true" TargetFileName="Content\bootstrap.css">bootstrap.css</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="Content\bootstrap.min.css">bootstrap.min.css</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="Content\Site.css">Site.css</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

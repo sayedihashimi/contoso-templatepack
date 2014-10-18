@@ -1,0 +1,13 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>.gitignore</DefaultName>
+    <Name>Contoso .gitignore</Name>
+    <Description>Contoso .gitignore</Description>
+    <ProjectType>CSharp</ProjectType>
+    <Icon>git-file-icon.png</Icon>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true" TargetFileName=".gitignore">.gitignore</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

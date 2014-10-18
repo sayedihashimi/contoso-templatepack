@@ -1,0 +1,17 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>Contoso site.master files</DefaultName>
+    <Name>Contoso site.master files</Name>
+    <Description>Contoso site.master files</Description>
+    <ProjectType>CSharp</ProjectType>
+    <Icon>web-file-icon.png</Icon>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true" TargetFileName="site.master">site.master</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="Site.Master.designer.cs">Site.Master.designer.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="Site.Mobile.Master">Site.Mobile.Master</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="Site.Mobile.Master.cs">Site.Mobile.Master.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="Site.Mobile.Master.designer.cs">Site.Mobile.Master.designer.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
