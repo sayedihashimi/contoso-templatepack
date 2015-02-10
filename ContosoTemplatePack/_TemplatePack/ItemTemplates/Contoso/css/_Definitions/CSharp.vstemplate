@@ -9,7 +9,7 @@
   </TemplateData>
   <TemplateContent>
     <ProjectItem ReplaceParameters="true" TargetFileName="Content\bootstrap.css">bootstrap.css</ProjectItem>
-    <ProjectItem ReplaceParameters="true" TargetFileName="Content\bootstrap.min.css">bootstrap.min.css</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="Content\bootstrap.css/bootstrap.min.css">bootstrap.min.css</ProjectItem>
     <ProjectItem ReplaceParameters="true" TargetFileName="Content\Site.css">Site.css</ProjectItem>
   </TemplateContent>
 </VSTemplate>
