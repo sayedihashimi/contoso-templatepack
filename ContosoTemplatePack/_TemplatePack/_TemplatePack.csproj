@@ -77,7 +77,9 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="ItemTemplates\Contoso\contoso-wpp.targets\_Definitions\CSharp.vstemplate" />
-    <Content Include="ItemTemplates\Contoso\css\_Definitions\CSharp.vstemplate" />
+    <Content Include="ItemTemplates\Contoso\css\_Definitions\CSharp.vstemplate">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="ItemTemplates\Contoso\fonts\_Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Contoso\gitattributes\_Definitions\CSharp.vstemplate" />
     <Content Include="ItemTemplates\Contoso\gitignore\_Definitions\CSharp.vstemplate" />
