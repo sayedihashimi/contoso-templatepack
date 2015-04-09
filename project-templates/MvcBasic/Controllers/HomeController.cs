@@ -5,6 +5,8 @@
     using System.Web;
     using System.Web.Mvc;
 
+    // new comment
+
     public class HomeController : ContosoShared.ContosoMvcController {
         public ActionResult Index() {
             return View();
